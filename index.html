@@ -1,3 +1,5 @@
+<!-- Author --- Adarsh Maurya -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,17 +12,58 @@
     
 </head>
 <body>
-    <header>
+    <header class="bg-main">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a class="font-m" href="#">Home</a></li>
+                <li><a class="font-m" href="#">About</a></li>
+                <li><a class="font-m" href="#">Contact</a></li>
+                <li><a class="font-m" href="#">Services</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div class="container">
+            <h1 class="font-m">Your TODo List</h1>
+            <div class="s-cont">
+
+                <form action="">
+                    <label   class="font-m" for="title">Title</label>
+                    <br>
+                    <input required style="height:2rem" class="font-s dp-block"  type="text" name="title" id="title">
+                    <br>
+                    <label class="font-m" for="description">Description</label>
+                    <textarea required style="height:4.2rem; padding:5px;" class="font-s dp-block" name="description" id="description
+                    " cols="30" rows="10"></textarea>
+
+                    <button type="submit" class="btn bg-main font-m">
+                        Submit
+                    </button>
+
+                    <div class="s-cont2">
+                        <h2 class="title">Your Items</h1>
+                            <br>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="font-m">S.No</th>
+                                    <th class="font-m">Title</th>
+                                    <th class="font-m">Description</th>
+                                    <th class="font-m">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
 
     </main>
     <script src="/script.js">
