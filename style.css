@@ -1,0 +1,95 @@
+/* Author -- Adarsh Maurya */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-main{
+    background-color: #2CD3E1;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+li{
+    padding: 15px 0;
+    margin: 0 15px;
+}
+li a{
+    text-decoration: none;
+    
+}
+.font-m{
+    font-family: sans-serif, monospace;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+
+}
+.font-s{
+    font-family: sans-serif,monospace;
+    font-size: 14px;
+    font-weight: 500;
+    color: #314d4f;
+
+}
+.container{
+    height: auto;
+    width: 100%;
+}
+.container h1{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.dp-block{
+    display: block;
+    width: 100%;
+    border: 1px solid #a9b8b9;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+.s-cont{
+    width: auto;
+    padding: 0 15rem;
+
+}
+.btn{
+    width: 6rem;
+    height: 2.5rem;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 0px solid #2CD3E1;
+}
+.btn:hover{
+    background-color: #314d4f;
+    color: white;
+}
+.title{
+    font-size: 22px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.table{
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+
+}
+.s-cont2{
+    margin: 10px 0;
+    width: 100%;
+
+}
+tr{
+    border-bottom: 1px solid #a9b8b9;
+    height: 2rem;
+}
+td{
+    text-align: center;
+}
